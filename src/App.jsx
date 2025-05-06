@@ -1,13 +1,14 @@
 import './App.css'
 import About from './components/About/About'
 import HeroSection from './components/HeroSection/HeroSection'
-import Card from './components/About/Card'
+import Experience from './components/Experience/Experience'
 
 function App() {
   return (
     <>
       <HeroSection />
       <About />
+      <Experience />
     </>
   )
 }

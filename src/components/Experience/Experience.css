@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'clash-display';
+    src: url(../../assets/fonts/ClashDisplay-Variable.ttf);
+}
+
+
+.experience-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'clash-display';
+  }
+  
+  .experience-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .experience-title {
+    color: #4285f4;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 20px;
+    white-space: nowrap;
+  }
+  
+  .experience-divider {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
+  
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .experience-card {
+    padding: 0;
+  }
+  
+  .experience-job-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .experience-company {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    color: #555;
+  }
+  
+  .experience-period {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    color: #555;
+  }
+  
+  .experience-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+  }
+
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .stat-item {
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .stat-number {
+    color: #4285f4;
+    font-size: 42px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+  }
+  
+  .stat-label {
+    color: #4285f4;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .stat-item {
+      max-width: 100%;
+    }
+  }
+  
+  

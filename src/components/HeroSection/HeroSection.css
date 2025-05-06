@@ -3,7 +3,7 @@
     src: url(../../assets/fonts/ClashDisplay-Variable.ttf);
 }
 
-/* Base Styles */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@
     align-items: center;
   }
   
-  /* Name Styling */
+
   .hero-name {
     font-family: 'clash-display', sans-serif;
     font-weight: 700;
@@ -40,6 +40,7 @@
   
 
   .hero-description {
+    margin-top: 3rem;
     font-family: 'clash-display', sans-serif;
     font-size: 24px;
     font-weight: 500;

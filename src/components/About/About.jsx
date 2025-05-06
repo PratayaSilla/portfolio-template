@@ -1,5 +1,6 @@
 import "./About.css"
-import SkillBar from "./SkillBar"
+import SkillBar from "./SkillBar.jsx"
+
 
 function About() {
   const skills = [
