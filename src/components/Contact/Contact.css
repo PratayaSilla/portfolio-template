@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'clash-display';
+    src: url(../../assets/fonts/ClashDisplay-Variable.ttf);
+}
+
+.contact-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        font-family: 'clash-display';
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+  
+  .contact-title {
+    color: #4285f4;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.contact-divider {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
