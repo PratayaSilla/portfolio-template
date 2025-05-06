@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'clash-display';
+    src: url(../../assets/fonts/ClashDisplay-Variable.ttf);
+}
+
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'clash-display';
+  }
+  
+  .about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-title {
+    color: #1B7AFF;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 20px;
+    white-space: nowrap;
+  }
+  
+  .about-divider {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .about-left {
+    flex: 1;
+  }
+  
+  .about-right {
+    flex: 2;
+  }
+  
+  .about-left p,
+  .about-right p {
+    margin-top: 0;
+    line-height: 1.6;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .skills-container {
+    margin-top: 40px;
+  }
+  
+
+  .skill-bar {
+    background-color: #1B7AFF;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-info h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .skill-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: white !important;
+    opacity: 0.9;
+  }
+  
+  .skill-percentage {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .about-left,
+    .about-right {
+      flex: none;
+      width: 100%;
+    }
+  }
+  

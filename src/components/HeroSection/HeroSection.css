@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'clash-display';
+    src: url(../../assets/fonts/ClashDisplay-Variable.ttf);
+}
+
+/* Base Styles */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Name Styling */
+  .hero-name {
+    font-family: 'clash-display', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  
+  .name-line {
+    display: block;
+    font-size: 275px;
+    color: #1B7AFF;
+    text-align: center;
+  }
+  
+
+  .hero-description {
+    font-family: 'clash-display', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+
+  
+
+  
+
+  @media (max-width: 768px) {
+    .name-line:first-child,
+    .name-line:last-child {
+      font-size: 3rem;
+    }
+    
+    .hero-description {
+      font-size: 1rem;
+    }
+  }
+
+.hero-img {
+    width: 189px;
+    height: 263px;
+    position: absolute;
+    margin: 147px 661px 485px 662px;
+    border-radius: 94.5px;
+}
+.scroll-to-explore{
+    font-family: 'clash-display';
+    font-size: 16px;
+}
+.star {
+    width: 59px;
+    height: 57px;
+    fill: #1B7AFF;
+}
