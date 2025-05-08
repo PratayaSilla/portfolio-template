@@ -4,18 +4,18 @@ function Education() {
 
   const educations = [
     {
-      degree: "MBA",
-      institution: "MIT, Boston",
-      period: "2015 - 2019",
+      degree: "Post Graduate Diploma in Banking (PGDB)",
+      institution: "Manipal University, Bangalore",
+      period: "2019",
       description:
-        "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs",
+        "Gained expertise in business strategy, financial management, and the application of technology to drive digital transformation.",
     },
     {
-      degree: "BTech",
-      institution: "Lovely Unprofessional Univeristy",
-      period: "2011 - 2015",
+      degree: "Bachelor of Commerce (B.Com)",
+      institution: "Khallikote University, Brahmapur",
+      period: "2018",
       description:
-        "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs",
+        "Developed a strong foundation in business and commerce, with a focus on finance, economics, and strategic decision-making.",
     },
     {
       degree: "INTERMIDIATE (XII)",

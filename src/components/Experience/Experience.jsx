@@ -3,32 +3,32 @@ import "./Experience.css"
 function Experience() {
   const experiences = [
     {
-      title: "Senior Data analyst",
-      company: "Superco",
-      period: "2019 - present",
+      title: "Senior Associate Consultant",
+      company: "Infosys",
+      period: "2022 - present",
       description:
-        "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs",
+        "Spearheading AI initiatives, ensuring compliance and ethical alignment. Collaborating with cross-functional teams to implement best practices for responsible AI and enhance client trust.",
     },
     {
-      title: "Senior Data analyst",
-      company: "Superco",
-      period: "2019 - present",
+      title: "Senior Associate Consultant",
+      company: "Infosys BPM Limited",
+      period: "2023 - 2025",
       description:
-        "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs",
+        "Collaborated with cross-functional teams to define product vision and strategy. Managed product backlog and facilitated agile ceremonies, improving delivery timelines and stakeholder satisfaction.",
     },
     {
-      title: "Senior Data analyst",
-      company: "Superco",
-      period: "2019 - present",
+      title: "Associate Consultant",
+      company: "Infosys BPM Limited",
+      period: "2022 - 2023",
       description:
-        "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs",
+        "Partnered with business users to gather requirements, translate them into user stories, and support agile sprint planning. Conducted market analysis to contribute to product roadmap development.",
     },
     {
-      title: "Senior Data analyst",
-      company: "Superco",
-      period: "2019 - present",
+      title: "Deputy Manager",
+      company: "ICICI Bank",
+      period: "2019 - 2021",
       description:
-        "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs",
+        "Developed product strategies for MSME initiatives, resulting in a 20% increase in market share. Coordinated cross-functional teams to streamline processes and improve product delivery efficiency.",
     },
   ]
 
