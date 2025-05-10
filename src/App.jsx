@@ -2,7 +2,7 @@ import './App.css'
 import About from './components/About/About'
 import HeroSection from './components/HeroSection/HeroSection'
 import Experience from './components/Experience/Experience'
-import Education from './components/Education/eDUCATION.JSX'
+import Education from './components/Education/Education'
 import Contact from './components/Contact/Contact'
 
 function App() {
