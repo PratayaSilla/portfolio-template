@@ -13,7 +13,7 @@ const HeroSection = () => {
       const x = e.clientX - rect.left - rect.width / 2;
       const y = e.clientY - rect.top - rect.height / 2;
 
-      const strength = 20; // max pixels to move
+      const strength = 20; 
       const moveX = (x / rect.width) * strength;
       const moveY = (y / rect.height) * strength;
 
