@@ -93,7 +93,7 @@
     font-weight: 300;
   }
   
-  /* Responsive styles */
+
   @media (max-width: 768px) {
     .about-content {
       flex-direction: column;
